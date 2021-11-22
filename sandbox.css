@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  box-sizing:content-box ;
+  background-color: rgb(2, 4, 37);
+
+  color: white;
+}
+.eth-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.eth__icon {
+  display: block;
+  /* text-indent: -9999px; */
+  width: 17px;
+  height: 30px;
+  background: url("./images/icon-ethereum.svg");
+  background-size: 17px 30px;
+
+}
+
